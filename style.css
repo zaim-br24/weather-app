@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;  
+}
+.container{
+    width: 80%;
+    margin:100px auto;
+    padding: 2% 2% ;
+    text-align: center;
+    max-width: 500px;
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+    border-radius: 10px;
+    box-shadow:2px -2px 30px 8px rgba(5, 5, 5, 0.49)
+
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 500px;
+
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3)
+}
+
+.searchBox input{
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    padding: 10px;
+    margin-left: 20px;
+    color: #555;
+    font-size:14px ;
+}
+.date{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.bottom{
+    margin-top: 100px ;
+    max-width: 500px;
+
+}
+.temp{
+    margin:20px 0;
+    font-size: 110px;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3)}
+
+.wicon .icon{
+    width: 20%;
+}
+
+.dec{
+    font-size: 30px;
+    font-weight: 800px;
+    padding: 20px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3)
+
+}
+.min-max{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+span{
+    font-weight: 500;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3)
+}
